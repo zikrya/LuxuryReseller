@@ -1,0 +1,53 @@
+.image img, img {
+    object-fit: cover;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+.image.is-64x64 img {
+    width: 64px;
+    height: 64px;
+}
+
+.image.is-128x128 img {
+    width: 128px;
+    height: 128px;
+}
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.left-arrow {
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.right-arrow {
+    top: 50%;
+    right: 13px;
+    font-size: 3rem;
+    color: #000;
+    cursor: pointer;
+    user-select: none;
+}
+.picture {
+    width: 1200px;
+    height: 500px;
+    border-radius: 10px;
+}
